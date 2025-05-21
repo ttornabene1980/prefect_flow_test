@@ -35,6 +35,16 @@ prefect worker start --pool 10_199_147_12
 
 View Deployment in UI: http://0.0.0.0:4200/deployments/deployment/68fb0463-9757-48fa-a23a-ccb75f5a684b
 
+
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/your_custom_key
+  IdentitiesOnly yes
+
+
+  
 ? Would you like to save configuration for this deployment for faster deployments in the future? [y/n]: y
 
 Deployment configuration saved to prefect.yaml! You can now deploy using this deployment configuration with:
