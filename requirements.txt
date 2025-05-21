@@ -1,0 +1,6 @@
+prefect
+prefect[kubernetes]
+pandas
+pysftp
+
+pgvector
